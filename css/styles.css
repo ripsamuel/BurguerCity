@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+
+.form-control {
+    @apply w-full py-1 px-4 rounded bg-gray-300 border border-blue-200;
+  }
+@tailwind utilities;
+
+
+.neutral {
+@apply text-gray-700 bg-gray-300 border-gray-700
+}
+
+.bad {
+@apply text-red-700 bg-red-300 border-red-700
+}
+.strange {
+@apply text-orange-700 bg-orange-300 border-orange-700
+}
+.good {
+@apply text-blue-700 bg-blue-300 border-blue-700
+}
+.information {
+@apply text-green-700 bg-green-300 border-green-700
+}
+
+.alert {
+@apply mb-2 p-2 rounded-md border-solid border-2
+}
+
+.btn {
+@apply p-2 text-black rounded
+}
+    
+    
+    

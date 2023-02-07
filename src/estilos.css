@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+
+.form-control {
+  @apply w-full py-1 px-4 rounded bg-gray-300 border border-blue-200;
+}
+@tailwind utilities;
+@tailwind variants;
+
+@layer base {
+    h1 {
+      @apply text-green-700 text-2xl !important;
+    }
+    h2 {
+      @apply text-xl;
+    }
+  }
+  
